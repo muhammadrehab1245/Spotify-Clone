@@ -1,0 +1,69 @@
+.navbar {
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-style {
+    height: 300px;
+}
+
+.weblinks {
+    display: block;
+}
+
+.logonav {
+    flex-direction: column;
+}
+
+.logohead {
+    position: relative;
+    right: 34px;
+    margin-top: 14px;
+    margin-left: 12px;
+}
+
+.weblinks {
+    margin-left: 18px;
+    margin-top: 35px;
+}
+
+.clone-des h1 {
+    text-align: center;
+    font-size: 30px;
+    width: auto;}
+
+    #songs-list {
+        width: 93%;}
+
+        .songsection {
+            height: 130vh;
+            max-width: 89%;}
+
+            .songs{
+                margin-left: 16px;
+    margin-top: 9px;
+            }
+
+            .songname h3 {
+                font-size: 11px;}
+
+                .songduration p{
+                    font-size: 7px;
+                }
+
+.songimg img {
+    height: 18px;}
+
+    #songgif {
+        position: static;
+        margin-top: 25px;
+    }
+
+    i{
+        margin-bottom: 13px;
+    }
+
+    .logo{
+        width: 48px;
+    }

@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding: 20px;
+    height: 54px;
+    display: flex;
+    
+}
+
+.nav-style{
+    background-color: black;
+}
+
+.weblinks{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    align-items: center;
+}
+.links{
+    font-size: 24px;
+}
+.logonav{
+    display: flex;
+    width: 10%;
+}
+
+.logohead{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+   
+}
+
+.navbar ul li a{
+    margin: 12px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.navbar ul li a:active{
+    background-color: black;
+    color: white;
+   
+}
+
+.songsection{
+    position: relative;
+    top: 30px;
+    background-color: black;
+    max-width: 78%;
+    margin: auto;
+    border-radius: 11px;
+    height:117vh;
+    background-image: url('../pics/bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.clone-des h1{
+   position: relative;
+   top: 25px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#songs-list{
+    width: 59%;
+    position: relative;
+   top: 2.9rem;
+    
+}
+
+.songimg img{
+    height: 29px;
+    border-radius: 20px;
+}
+
+.songs{
+    display: flex;
+    flex-direction:  row;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 14px;
+    height: 7vh;
+    width: 95%;
+    align-items: center;
+    margin-left: 47px;
+    margin-top: 16px;
+}
+.songimg {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.songname{
+    width: 100%;
+    text-align: center;
+}
+.playicon{
+
+    color: silver;
+    
+}
+
+.songduration p{
+    position: relative;
+    top: 24px;
+    right: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.songname h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.songduration{
+    position: relative;
+    right: 6px;
+width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.bgimg{
+
+    width: 73%;
+
+}
+.bgimg img{
+    height: 80vh;
+    width: 30vw;
+}
+
+.playingsong{
+    background-color: black;
+    position: sticky;
+    bottom: 0px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.playingsong input{
+    width: 83vw;
+}
+#songprogress{
+    margin-top: 24px;
+}
+i{
+    margin-top: 20px;
+    filter: invert(1);
+    cursor: pointer;
+}
+#songgif{
+    position: absolute;
+    left: 12vw;
+    margin-top:3.7rem;
+}
+#currsong{
+    color: white;
+    font-size: 18px;
+}
+#songgif img{
+    height: 20px;
+    width: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
